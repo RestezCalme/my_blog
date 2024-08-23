@@ -172,6 +172,13 @@ git branch
 git push -u origin main
 ```
 将本地仓库推送到推送到远程仓库
+### 重新下载依赖
+推送后，由于git默认忽略node_modules,导致克隆后无法直接运行项目
+需要运行
+```bash
+npm install
+```
+该命令会根据package.json重新生成 node_modules 目录和 package-lock.json 文件
 ## 在VSCode中使用git
 ### 命令行启动VSCode
 在仓库目录下输入
