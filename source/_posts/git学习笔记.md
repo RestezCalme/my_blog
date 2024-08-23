@@ -20,6 +20,10 @@ git config --global user.name "your_name"
 ```bash
 git config --global user.email example@mail.com
 ```
+### 配置默认分支名称
+```bash
+git config --global init.defaultBranch main
+```
 ### 保存配置 
 ```bash
 git config --global credential.helper store
@@ -134,5 +138,38 @@ ssh-keygen -t rsa -b 4096
 ```bash
 git push
 ```
-
+## 关联本地仓库与远程仓库
+如果已经在本地有一个仓库，想要将他与远程仓库关联
+### 创建仓库
+首先在主目录下输入
+```bash
+git init
+```
+创建仓库，同时输入相关命令配置各种信息
+### 关联仓库
+输入
+```bash 
+git remote add origin git@github.com:RestezCalme/my_blog.git
+```
+将远程仓库与本地仓库关联起来
+### 激活默认分支
+此时默认分支未激活，仓库内没有有效分支
+需要完成第一次提交才能激活一个分支
+输入
+```bash
+git add .
+git commit -m "Initial commit"
+```
+完成一次提交
+在你创建了第一个提交后，运行 
+```bash
+git branch 
+```
+将会显示当前的分支名称
+### 推送仓库
+运行
+```bash
+git push -u origin main
+```
+将本地仓库推送到推送到远程仓库
 
