@@ -1,6 +1,8 @@
 ---
 title: hexo博客开启https
 date: 2024-08-23 23:18:03
+index_img: /img/hexo博客开启https/banner.png
+banner_img:  /img/hexo博客开启https/banner.png
 tags:
 ---
 本文默认已经参照[hexo文档](https://hexo.io/zh-cn/docs/)完成建站工作
