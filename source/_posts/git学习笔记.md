@@ -172,4 +172,11 @@ git branch
 git push -u origin main
 ```
 将本地仓库推送到推送到远程仓库
+## 在VSCode中使用git
+### 命令行启动VSCode
+在仓库目录下输入
+```bash
+code .
+```
+
 
