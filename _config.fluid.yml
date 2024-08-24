@@ -232,10 +232,11 @@ font:
 # 指定自定义 .js 文件路径，支持列表；路径是相对 source 目录，如 /js/custom.js 对应存放目录 source/js/custom.js
 # Specify the path of your custom js file, support list. The path is relative to the source directory, such as `/js/custom.js` corresponding to the directory `source/js/custom.js`
 custom_js:
+  - /cust_js/custom.js
 
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
-custom_css:
+custom_css: /cust_css/custom.css
 
 # 网页访问统计
 # Analysis of website visitors
@@ -447,6 +448,8 @@ footer:
     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
     <i class="iconfont icon-love"></i>
     <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+    <br><span id="timeDate">天数载入中</span><span id="times">...</span><br>
+    <p>Copyright © 2024 - <span id="currentYear"></span> All Rights Reserved.</p>
   '
 
   # 展示网站的 PV、UV 统计数
