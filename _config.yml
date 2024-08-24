@@ -137,3 +137,12 @@ live2d:
   react:
     opacityDefault: 0.7
     opacityOnHover: 0.2
+# 生成站点地图插件
+plugins: 
+  hexo-generator-baidu-sitemap
+  hexo-generator-sitemap
+# 站点地图配置
+baidusitemap:
+    path: baidusitemap.xml
+sitemap:
+    path: sitemap.xml
