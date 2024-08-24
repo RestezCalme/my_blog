@@ -449,8 +449,7 @@ footer:
     <i class="iconfont icon-love"></i>
     <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
     <br><span id="timeDate">天数载入中</span><span id="times">...</span><br>
-    <p>Copyright © 2024 - <span id="currentYear"></span> All Rights Reserved.</p>
-  '
+    <p>Copyright © 2024 - <span id="currentYear"></span> All Rights Reserved.</p>'
 
   # 展示网站的 PV、UV 统计数
   # Display website PV and UV statistics
@@ -1061,7 +1060,7 @@ links:
   # 评论插件
   # Comment plugin
   comments:
-    enable: true
+    enable: false
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
