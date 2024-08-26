@@ -3,11 +3,11 @@ title: 为Hexo博客添加aplayer音乐播放器
 date: 2024-08-27 01:12:29
 index_img: /img/为Hexo博客添加aplayer音乐播放器/banner.png
 banner_img: /img/为Hexo博客添加aplayer音乐播放器/banner.png
-excerpt: 总感觉自己博客太单调，没有生气，需要来点大明星驻场
+excerpt: 总感觉自己博客太单调，没有生气，需要来点大明星驻唱
 tags:
 categories:
 ---
-> 总感觉自己博客太单调，没有生气，需要来点大明星驻场
+> 总感觉自己博客太单调，没有生气，需要来点大明星驻唱
 ## 安装aplayer
 安装的方法有两种
 ### 1.npm安装 
