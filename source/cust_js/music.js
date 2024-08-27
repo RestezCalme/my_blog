@@ -1,7 +1,7 @@
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
     fixed: true,
-	autoplay: true, //自动播放
+	autoplay: false, //自动播放
     listFolded: false, //列表默认折叠
     listMaxHeight: 90, //列表最大高度
     loop: 'all', //音频循环播放, 可选值: 'all'全部循环, 'one'单曲循环, 'none'不循环

@@ -981,17 +981,17 @@ tag:
 about:
   enable: true
   banner_img: /img/main_images/lucy_banner.png
-  banner_img_height: 60
+  banner_img_height: 80
   banner_mask_alpha: 0.3
-  avatar: /img/avatar.png
-  name: "Fluid"
-  intro: "welcome to my blog"
+  avatar: /img/main_images/lucy.png
+  name: "Nikaidou"
+  intro: "关山难越，谁悲失路之人；萍水相逢，尽是他乡之客。"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, the icon is no longer a link, but a hovering QR code
   icons:
-    - { class: "iconfont icon-github-fill", link: "https://github.com", tip: "GitHub" }
-    - { class: "iconfont icon-douban-fill", link: "https://douban.com", tip: "豆瓣" }
-    - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
+    - { class: "iconfont icon-github-fill", link: "https://github.com/RestezCalme", tip: "GitHub" }
+    - { class: "iconfont icon-telegram-fill", link: "https://t.me/EileenGu010", tip: "tg" }
+    - { class: "iconfont icon-bilibili", link: "https://space.bilibili.com/57431703?spm_id_from=333.1007.0.0" , tip: "bilibili" }
 
 
 #---------------------------
