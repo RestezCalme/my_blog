@@ -24,6 +24,11 @@ const ap = new APlayer({
         url: '/music/Call%20of%20Silence.m4a',
         cover: '/music/Call%20of%20Silence.jpg',
     },
-
+    {
+        name: '一格格', 
+        artist: '卫兰',
+        url: '/music/一格格.aac',
+        cover: '/music/一格格.jpg',
+    },
 	]
 });
