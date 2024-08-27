@@ -9,7 +9,7 @@ const ap = new APlayer({
     {
         name: 'jump in', 
         artist: 'めぐみん(CV:高橋李依)、ゆんゆん(CV:豊崎愛生)',
-        url: '/music/jump%20in.mp3',
+        url: '/music/jump%20in.m4a',
         cover: '/music/jump%20in.jpg',
     },
     {
@@ -21,7 +21,7 @@ const ap = new APlayer({
     {
         name: 'Call of Silence', 
         artist: '泽野弘之',
-        url: '/music/Call%20of%20Silence.mp3',
+        url: '/music/Call%20of%20Silence.m4a',
         cover: '/music/Call%20of%20Silence.jpg',
     },
 
