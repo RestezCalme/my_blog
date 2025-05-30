@@ -27,7 +27,7 @@
     "hexo-tag-aplayer": "^3.0.4",
     "hexo-theme-fluid": "^1.9.8",
     "hexo-theme-landscape": "^1.0.0",
-    "http-cache-semantics": "^4.1.1",
+    "http-cache-semantics": "^4.2.0",
     "live2d-widget-model-hijiki": "^1.0.5",
     "live2d-widget-model-z16": "^1.0.5",
     "node-fetch": "^3.3.2"
